@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Icon from "./Components/Icon";
-// import react-toastify
+
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import reactstrap
+
 import { Button, Container, Card, CardBody, Row, Col } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "./style.css";
