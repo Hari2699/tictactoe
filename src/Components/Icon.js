@@ -1,15 +1,15 @@
 import React from 'react'
-import { FaRegCircle, FaPen, FaTimes } from "react-icons/fa";
+import { FaRegCircle, FaTimes } from "react-icons/fa";
 
 const Icon = ({choice}) => {
 
         switch(choice){
-            case "cross":
+            case "Cross":
                 return <FaTimes />;
-            case "circle":
+            case "Circle":
                 return <FaRegCircle />;
             default :
-                return <FaPen />
+                return "";
         }
         
             
