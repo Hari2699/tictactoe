@@ -114,7 +114,7 @@ const App = () => {
 
           <div className="grid">
             {tiktacArray.map((value, index) => (
-              <Card onClick={() => changeItem(index)}>
+              <Card key={index} onClick={() => changeItem(index)}>
                 <CardBody className="box">
                   <Icon choice={tiktacArray[index]} />
                 </CardBody>
